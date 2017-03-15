@@ -30,6 +30,9 @@
     "fileExtension": ".css",
     "source": "src/**/*.css"
   },
+  "jsonProcessor": {
+    "source": "src/**/*.json"
+  },
   "editor": {
     "id": "vscode",
     "displayName": "Visual Studio Code"
@@ -85,7 +88,7 @@
         "name": "app-bundle.js",
         "source": [
           "[**/*.js]",
-          "**/*.{css,html}"
+          "**/*.{css,html,json}"
         ]
       },
       {

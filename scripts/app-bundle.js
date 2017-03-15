@@ -86,7 +86,6 @@ define('resources/index',["exports"], function (exports) {
   exports.configure = configure;
   function configure(config) {}
 });
-define('text!test.json',[],function () { return '{\r\n  "foo": "bar"\r\n}';});
-
+define('text!text!test.json.json', ['module'], function(module) { module.exports = "{\r\n  \"foo\": \"bar1234\"\r\n}"; });
 define('text!app.html', ['module'], function(module) { module.exports = "<template><h1>${message}</h1></template>"; });
 //# sourceMappingURL=app-bundle.js.map
